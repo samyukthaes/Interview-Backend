@@ -1,0 +1,12 @@
+#server:
+#  port: 8080
+#spring:
+#  datasource:
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://mysql-container:3306/interviewresult
+#    username: root
+#    password: pass@word1
+#  jpa:
+#    hibernate.ddl-auto: update
+#    generate-ddl: true
+#    show-sql: true
