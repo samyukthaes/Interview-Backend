@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/candidates")
+@RequestMapping("/feedback")
 public class CandidateController {
 
     @Autowired

@@ -9,7 +9,7 @@ import java.util.Optional;
 
 
 @Repository
-public interface CandidateRepository extends JpaRepository<Candidate, Long> {
+public interface CandidateRepository extends JpaRepository<Candidate,Long> {
 
     List<Candidate> findAll();
 

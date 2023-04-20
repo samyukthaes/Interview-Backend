@@ -1,5 +1,6 @@
 package com.USTInterviewScheduler.FeedBackForm.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -22,15 +23,15 @@ public class Candidate {
 
     private String name;
 
-    private LocalDate interviewDate;
+    private String interviewDate;
 
-    private LocalTime interviewTime;
+    private String interviewTime;
 
     private String interviewerName;
 
     private String interviewResult;
 
-    @Column(length = 500)
+//    @Column(length = 500)
     private String interviewComments;
 
 
